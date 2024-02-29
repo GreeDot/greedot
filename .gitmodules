@@ -1,0 +1,16 @@
+[submodule "ai-server"]
+	path = ai-server
+	url = https://github.com/GreeDot/ai-server
+	branch = main
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/GreeDot/greedot-frontend
+	branch = main
+[submodule "backend"]
+	path = backend
+	url = https://github.com/GreeDot/greedot-backend
+	branch = main
+[submodule "animation"]
+	path = animation
+	url = https://github.com/GreeDot/greedot-animation
+	branch = main
