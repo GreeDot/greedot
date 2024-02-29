@@ -2,6 +2,4 @@
 나만의 AI 단짝 친구 그리닷
 
 ## 시연 영상
-<div>
-https://youtu.be/_1cBe-LdLRE?si=m8D0mcQDlh31dxCJ
-</div>
+https://github.com/GreeDot/greedot/blob/main/assets/%EA%B7%B8%EB%A6%AC%EB%8B%B7%20%EC%8B%9C%EC%97%B0%EC%98%81%EC%83%81.mp4
