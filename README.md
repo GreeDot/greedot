@@ -44,8 +44,7 @@
 
 <img width="633" alt="image" src="https://github.com/GreeDot/greedot/assets/120752098/4fd6044f-5e6f-4485-9b8e-779469cfde1e">
 
-https://github.com/GreeDot/greedot/assets/120752098/fe648a66-72bd-40e6-826a-204d9d96ee05
-
+<img width="633" alt="image" src="https://github.com/GreeDot/greedot/assets/120752098/6509452b-9020-4c76-8498-53e1c72f274d">
 
 
 - 동영상에서 인간 관전 좌표 추출 후 캐릭터에 적용
