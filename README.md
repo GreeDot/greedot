@@ -2,7 +2,7 @@
 
 <img width="633" alt="image" src="https://github.com/GreeDot/greedot/assets/120752098/7f174a8b-555a-4ebc-9122-f5677ad00ab5">
 
-## 1. skt fly ai challengers 4기 대상
+## 1. skt fly ai challengers 4기 대상 🏆
 
 <img width="633" alt="스크린샷 2024-03-02 144058" src="https://github.com/GreeDot/greedot/assets/120752098/72021669-84c8-4c75-9a2f-b73ec5564f47">
 
