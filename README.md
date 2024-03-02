@@ -58,13 +58,13 @@
 
 ## 6. 팀원 소개
 
-| 이름   | 역할                                       |
-| ------ | ------------------------------------------ |
-| [변지협](https://github.com/rimgosu) 🤨 | **팀장**, 백엔드, 클라우드, CI/CD 파이프라인 구축    |
-| [이성원](https://github.com/2Swon) 😊 | 백엔드, 프론트엔드 연결, 그림 업그레이드 기능 구현 |
-| [김동욱](https://github.com/donguk071) 😁 | Vision AI, 캐릭터 리깅                     |
-| [김동재](https://github.com/dongjaee) 😘 | 프론트엔드, STT, GPT 파인튜닝               |
-| [문지우](https://github.com/Moonjiwoojdjeiwnwh) 😯 | 프론트엔드, 감정분석 기능 구현             |
+| 이름   | 역할                                       | 기능                                       |
+| ------ | ------------------------------------------ | ------------------------------------------ |
+| [변지협](https://github.com/rimgosu) 🤨 | **팀장**, 백엔드, 클라우드    | CI/CD 파이프라인 구축 |
+| [이성원](https://github.com/2Swon) 😊 | 백엔드, 프론트엔드 연결 | 그림 업그레이드 기능 구현 |
+| [김동욱](https://github.com/donguk071) 😁 | Vision AI                     | 캐릭터 리깅 기능 구현 |
+| [김동재](https://github.com/dongjaee) 😘 | 프론트엔드, 감정 AI               | STT, GPT 파인튜닝 |
+| [문지우](https://github.com/Moonjiwoojdjeiwnwh) 😯 | 프론트엔드, 언어 AI             | 감정분석 기능 구현 |
 
 
 ## 7. Link
