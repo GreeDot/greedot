@@ -27,14 +27,45 @@
 
 <img width="633" alt="image" src="https://github.com/GreeDot/greedot/assets/120752098/1ab2ad98-6712-439f-aa92-e35f5b6b56e8">
 
+### 4-1. 구현 툴
 - frontend: **flutter**
 - backend: **fastapi**
-- cloud: AWS RDS, Azure VM
-- file: Azure Container
+- cloud: AWS RDS(MySQL), Azure VM, Azure Container(Blob Storage)
 - CI/CD: github action, docker
-- emotion ai: KoBert emotion predict
-- vision ai: animated drawings
-- chat ai: GPT 3.5-turbo (finetuning)
+
+### 4-2. AI, API
+- emotion ai: **KoBert emotion predict**
+- vision ai: **animated drawings**: <https://github.com/facebookresearch/AnimatedDrawings>
+- chat ai: **GPT 3.5-turbo** (finetuning)
 - apis: NAVER CLOVA voice, NAVER speech, midjourney api
 
-## 4-1. 리깅
+## 5. 기술
+### 5-1. 리깅
+
+<img width="633" alt="image" src="https://github.com/GreeDot/greedot/assets/120752098/4fd6044f-5e6f-4485-9b8e-779469cfde1e">
+
+
+- 동영상에서 인간 관전 좌표 추출 후 캐릭터에 적용
+
+
+### 5-2. 감정 분류
+- 6가지 감정 상황에 따른 대화 데이터 약 8만개 문장으로 KoBERT 학습
+- fine tuning, 데이터 이상치 제거, 모델 앙상블을 통한 정확도 향상(test val: 77%)
+
+### 5-3. GPT 파인튜닝
+- gpt 3.5 모델을 활용, 약 70개 대화 파인튜닝 및 페르소나 적용
+- 성격, 성별에 따라 다양한 스타일의 목소리 제공
+
+## 6. 팀원 소개
+
+| 이름   | 역할                                       |
+| ------ | ------------------------------------------ |
+| [변지협](https://github.com/rimgosu) 🤨(팀장) | 백엔드, 클라우드, CI/CD 파이프라인 구축    |
+| [이성원](https://github.com/2Swon) 😊 | 백엔드, 생성형 AI를 활용한 그림 업그레이드 기능 구현 |
+| [김동욱](https://github.com/donguk071) 😁 | Vision AI, 캐릭터 리깅                     |
+| [김동재](https://github.com/dongjaee) 😘 | 프론트엔드, STT, GPT 파인튜닝               |
+| [문지우](https://github.com/Moonjiwoojdjeiwnwh) 😯 | 프론트엔드, 감정분석 기능 구현             |
+
+
+## 7. 기록 모음
+- 
