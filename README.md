@@ -1,4 +1,4 @@
-# greedot
+# 🐶 greedot
 
 <img width="633" alt="image" src="https://github.com/GreeDot/greedot/assets/120752098/7f174a8b-555a-4ebc-9122-f5677ad00ab5">
 
