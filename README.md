@@ -54,7 +54,7 @@
 
 <img width="633" alt="image" src="https://github.com/GreeDot/greedot/assets/120752098/4fd6044f-5e6f-4485-9b8e-779469cfde1e">
 
--tech flow
+- tech flow
   - mediapipe를 이용한 애니메이션(.bvh) 생성 알고리즘
   - rigging + retargettign
   - Animated drawings renderer를 통하여 캐릭터에 애니메이션 적용
