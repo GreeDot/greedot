@@ -10,7 +10,7 @@
 
 [<img width="633" alt="image" src="https://github.com/GreeDot/greedot/assets/120752098/ea200ca6-653b-4622-b2f3-43fc222ba332">](https://www.youtube.com/watch?v=_1cBe-LdLRE)
 
-- <https://www.youtube.com/watch?v=_1cBe-LdLRE>
+- [영상링크](https://www.youtube.com/watch?v=_1cBe-LdLRE)
 
 
 ## 3. 프로젝트 개요
@@ -35,7 +35,7 @@
 
 ### 4-2. AI, API
 - emotion ai: **KoBert emotion predict**
-- vision ai: **animated drawings**: <https://github.com/facebookresearch/AnimatedDrawings>
+- vision ai, rendering engine: **animated drawings**: <https://github.com/facebookresearch/AnimatedDrawings>
 - chat ai: **GPT 3.5-turbo** (finetuning)
 - apis: NAVER CLOVA voice, NAVER speech, midjourney api
 
