@@ -41,24 +41,26 @@
 
 ### 4-2. AI, API
 
-# | Category                 | Technologies/Services                              |
-# |--------------------------|----------------------------------------------------|
-# | Emotion AI               | KoBert emotion predict                             |
-# | Vision AI & Rendering    | Animated drawings                                  |
-# | Chat AI                  | GPT 3.5-turbo + finetuning                         |
-# | APIs                     | NAVER CLOVA voice, NAVER speech, Midjourney API    |
+| Category                 | Technologies/Services                              |
+|--------------------------|----------------------------------------------------|
+| Emotion AI               | KoBert emotion predict                             |
+| Vision AI & Rendering    | Animated drawings                                  |
+| Chat AI                  | GPT 3.5-turbo + finetuning                         |
+| APIs                     | NAVER CLOVA voice, NAVER speech, Midjourney API    |
 
 
 ## 5. 기술
 ### 5-1. Rendering(rigging+retargeting)
 
 <img width="633" alt="image" src="https://github.com/GreeDot/greedot/assets/120752098/4fd6044f-5e6f-4485-9b8e-779469cfde1e">
+
 -tech flow
   - mediapipe를 이용한 애니메이션(.bvh) 생성 알고리즘
   - rigging + retargettign
   - Animated drawings renderer를 통하여 캐릭터에 애니메이션 적용
 
 <img width="633" alt="image" src="https://github.com/GreeDot/greedot/assets/120752098/6509452b-9020-4c76-8498-53e1c72f274d">
+
 - result
 
 ### 5-2. emotion classification
@@ -82,7 +84,10 @@
 
 ## 7. Link
 
-- [**아보카도 노션**](https://cuddly-spinach-1a9.notion.site/90bdc1a12dcd4e79a551be74e0b76196?pvs=25)
-- [**최종 발표 자료**](https://github.com/GreeDot/greedot/blob/main/assets/%EC%B5%9C%EC%A2%85PPT_%EA%B7%B8%EB%A6%AC%EB%8B%B7.pdf)
-- [**Backend Server(Dockerhub)**](https://hub.docker.com/repository/docker/newnyup319/greedot-backend/general)
-- [**AI Server(Dockerhub)**](https://hub.docker.com/repository/docker/newnyup319/greedot-ai/general)
+[**아보카도 노션**](https://cuddly-spinach-1a9.notion.site/90bdc1a12dcd4e79a551be74e0b76196?pvs=25)
+
+[**최종 발표 자료**](https://github.com/GreeDot/greedot/blob/main/assets/%EC%B5%9C%EC%A2%85PPT_%EA%B7%B8%EB%A6%AC%EB%8B%B7.pdf)
+
+[**Backend Server(Dockerhub)**](https://hub.docker.com/repository/docker/newnyup319/greedot-backend/general)
+
+[**AI Server(Dockerhub)**](https://hub.docker.com/repository/docker/newnyup319/greedot-ai/general)
