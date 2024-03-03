@@ -2,6 +2,8 @@
 
 <img width="633" alt="image" src="https://github.com/GreeDot/greedot/assets/120752098/7f174a8b-555a-4ebc-9122-f5677ad00ab5">
 
+그리닷 프로젝트는 아이가 직접 그린 그림에 생명을 더해주는 "메타 캐릭터 생성" 프로젝트 입니다.
+
 ## 1. skt fly ai challengers 4기 대상 🏆
 
 <img width="633" alt="스크린샷 2024-03-02 144058" src="https://github.com/GreeDot/greedot/assets/120752098/72021669-84c8-4c75-9a2f-b73ec5564f47">
@@ -10,7 +12,7 @@
 
 [<img width="633" alt="image" src="https://github.com/GreeDot/greedot/assets/120752098/ea200ca6-653b-4622-b2f3-43fc222ba332">](https://www.youtube.com/watch?v=_1cBe-LdLRE)
 
-- <https://www.youtube.com/watch?v=_1cBe-LdLRE>
+- [영상링크](https://www.youtube.com/watch?v=_1cBe-LdLRE)
 
 
 ## 3. 프로젝트 개요
@@ -28,33 +30,44 @@
 <img width="633" alt="image" src="https://github.com/GreeDot/greedot/assets/120752098/1ab2ad98-6712-439f-aa92-e35f5b6b56e8">
 
 ### 4-1. 구현 툴
-- frontend: **flutter**
-- backend: **fastapi**
-- cloud: AWS RDS(MySQL), Azure VM, Azure Container(Blob Storage)
-- CI/CD: github action, docker
+
+| Category  | Technologies                                        |
+|-----------|-----------------------------------------------------|
+| Frontend  | Flutter                                             |
+| Backend   | FastAPI                                             |
+| Cloud     | AWS RDS (MySQL), Azure VM, Azure Container (Blob Storage) |
+| CI/CD     | GitHub Actions, Docker                              |
+
 
 ### 4-2. AI, API
-- emotion ai: **KoBert emotion predict**
-- vision ai: **animated drawings**: <https://github.com/facebookresearch/AnimatedDrawings>
-- chat ai: **GPT 3.5-turbo** (finetuning)
-- apis: NAVER CLOVA voice, NAVER speech, midjourney api
+
+| Category                 | Technologies/Services                              |
+|--------------------------|----------------------------------------------------|
+| Emotion AI               | KoBert emotion predict                             |
+| Vision AI & Rendering    | Animated drawings                                  |
+| Chat AI                  | GPT 3.5-turbo + finetuning                         |
+| APIs                     | NAVER CLOVA voice, NAVER speech, Midjourney API    |
+
 
 ## 5. 기술
-### 5-1. 리깅
+### 5-1. Rendering(rigging+retargeting)
 
 <img width="633" alt="image" src="https://github.com/GreeDot/greedot/assets/120752098/4fd6044f-5e6f-4485-9b8e-779469cfde1e">
 
+- Tech flow
+  - mediapipe를 이용한 애니메이션(.bvh) 생성 알고리즘
+  - rigging + retargettign
+  - Animated drawings renderer를 통하여 캐릭터에 애니메이션 적용
+
 <img width="633" alt="image" src="https://github.com/GreeDot/greedot/assets/120752098/6509452b-9020-4c76-8498-53e1c72f274d">
 
+- result
 
-- 동영상에서 인간 관절 좌표 추출 후 캐릭터에 적용
-
-
-### 5-2. 감정 분류
+### 5-2. emotion classification
 - 6가지 감정 상황에 따른 대화 데이터 약 8만개 문장으로 KoBERT 학습
 - fine tuning, 데이터 이상치 제거, 모델 앙상블을 통한 정확도 향상(test val: 77%)
 
-### 5-3. GPT 파인튜닝
+### 5-3. GPT fine tuning
 - gpt 3.5 모델을 활용, 약 70개 대화 파인튜닝 및 페르소나 적용
 - 성격, 성별에 따라 다양한 스타일의 목소리 제공
 
@@ -70,7 +83,11 @@
 
 
 ## 7. Link
-- **아보카도 노션**: <https://cuddly-spinach-1a9.notion.site/90bdc1a12dcd4e79a551be74e0b76196?pvs=25>
-- **최종 발표 자료**: [https://github.com/GreeDot/greedot/blob/main/assets/greedot_ppt.pdf](https://github.com/GreeDot/greedot/blob/main/assets/%EC%B5%9C%EC%A2%85PPT_%EA%B7%B8%EB%A6%AC%EB%8B%B7.pdf)
-- **Backend Server(Dockerhub)**: <https://hub.docker.com/repository/docker/newnyup319/greedot-backend/general>
-- **AI Server(Dockerhub)**: <https://hub.docker.com/repository/docker/newnyup319/greedot-ai/general>
+
+[**아보카도 노션**](https://cuddly-spinach-1a9.notion.site/90bdc1a12dcd4e79a551be74e0b76196?pvs=25)
+
+[**최종 발표 자료**](https://github.com/GreeDot/greedot/blob/main/assets/%EC%B5%9C%EC%A2%85PPT_%EA%B7%B8%EB%A6%AC%EB%8B%B7.pdf)
+
+[**Backend Server(Dockerhub)**](https://hub.docker.com/repository/docker/newnyup319/greedot-backend/general)
+
+[**AI Server(Dockerhub)**](https://hub.docker.com/repository/docker/newnyup319/greedot-ai/general)
