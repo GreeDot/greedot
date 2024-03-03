@@ -84,10 +84,7 @@
 
 ## 7. Link
 
-[**아보카도 노션**](https://cuddly-spinach-1a9.notion.site/90bdc1a12dcd4e79a551be74e0b76196?pvs=25)
-
-[**최종 발표 자료**](https://github.com/GreeDot/greedot/blob/main/assets/%EC%B5%9C%EC%A2%85PPT_%EA%B7%B8%EB%A6%AC%EB%8B%B7.pdf)
-
-[**Backend Server(Dockerhub)**](https://hub.docker.com/repository/docker/newnyup319/greedot-backend/general)
-
-[**AI Server(Dockerhub)**](https://hub.docker.com/repository/docker/newnyup319/greedot-ai/general)
+- [**아보카도 노션**](https://cuddly-spinach-1a9.notion.site/90bdc1a12dcd4e79a551be74e0b76196?pvs=25)
+- [**최종 발표 자료**](https://github.com/GreeDot/greedot/blob/main/assets/%EC%B5%9C%EC%A2%85PPT_%EA%B7%B8%EB%A6%AC%EB%8B%B7.pdf)
+- [**Backend Server(Dockerhub)**](https://hub.docker.com/repository/docker/newnyup319/greedot-backend/general)
+- [**AI Server(Dockerhub)**](https://hub.docker.com/repository/docker/newnyup319/greedot-ai/general)
