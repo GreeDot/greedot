@@ -40,21 +40,26 @@
 
 
 ### 4-2. AI, API
-- emotion ai: **KoBert emotion predict**
-- vision ai, rendering engine: [**animated drawings**](https://github.com/facebookresearch/AnimatedDrawings)
-- chat ai: **GPT 3.5-turbo** + finetuning
-- apis: NAVER CLOVA voice, NAVER speech, midjourney api
+
+# | Category                 | Technologies/Services                              |
+# |--------------------------|----------------------------------------------------|
+# | Emotion AI               | KoBert emotion predict                             |
+# | Vision AI & Rendering    | Animated drawings                                  |
+# | Chat AI                  | GPT 3.5-turbo + finetuning                         |
+# | APIs                     | NAVER CLOVA voice, NAVER speech, Midjourney API    |
+
 
 ## 5. 기술
 ### 5-1. Rendering(rigging+retargeting)
 
 <img width="633" alt="image" src="https://github.com/GreeDot/greedot/assets/120752098/4fd6044f-5e6f-4485-9b8e-779469cfde1e">
+-tech flow
+  - mediapipe를 이용한 애니메이션(.bvh) 생성 알고리즘
+  - rigging + retargettign
+  - Animated drawings renderer를 통하여 캐릭터에 애니메이션 적용
 
 <img width="633" alt="image" src="https://github.com/GreeDot/greedot/assets/120752098/6509452b-9020-4c76-8498-53e1c72f274d">
-
-
-- 동영상에서 인간 관절 좌표 추출 후 캐릭터에 적용
-
+- result
 
 ### 5-2. emotion classification
 - 6가지 감정 상황에 따른 대화 데이터 약 8만개 문장으로 KoBERT 학습
