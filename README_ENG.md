@@ -5,7 +5,7 @@
 GreeDot is a project brings life to children's drawings by creating "Meta Characters".
 Enjoy various interaction with your characters!!
 
-## 1. SKT Fly AI Challengers 4th Generation Grand Prize 🏆
+## 1. SKT Fly AI Challengers 4th(1st Prize 🏆)
 
 ![SKT Fly AI Challengers Award](https://github.com/GreeDot/greedot/assets/120752098/72021669-84c8-4c75-9a2f-b73ec5564f47)
 
@@ -50,10 +50,16 @@ Enjoy various interaction with your characters!!
 ## 5. Technologies
 ### 5-1. Rendering (rigging + retargeting)
 
+<img width="633" alt="image" src="https://github.com/GreeDot/greedot/assets/120752098/4fd6044f-5e6f-4485-9b8e-779469cfde1e">
+
 - Tech flow
   - Animation (.bvh) creation algorithm using MediaPipe
   - Rigging + Retargeting
   - Applying animations to characters through Animated Drawings Renderer
+
+<img width="633" alt="image" src="https://github.com/GreeDot/greedot/assets/120752098/6509452b-9020-4c76-8498-53e1c72f274d">
+
+- Result
 
 ### 5-2. Emotion Classification
 - Trained KoBERT on about 80,000 sentences for six emotional situations
